@@ -1,7 +1,7 @@
-## VERSION 0.8.2
+## VERSION 0.8.3
 
 # UPDATE THESE VARIABLES WITH YOUR CONFIG
-HOME_ASSISTANT_URL                = 'https://yourhainstall.com'       # REPLACE WITH THE URL FOR YOUR HA FRONTEND
+HOME_ASSISTANT_URL                = 'https://tudominiohomeassistant.com'       # REPLACE WITH THE URL FOR YOUR HA FRONTEND
 VERIFY_SSL                        = True                              # SET TO FALSE IF YOU DO NOT HAVE VALID CERTS
 TOKEN                             = ''                                # ADD YOUR LONG LIVED TOKEN IF NEEDED OTHERWISE LEAVE BLANK
 
@@ -335,7 +335,7 @@ class IntentReflectorHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         intent_name = ask_utils.get_intent_name(handler_input)
-        speak_output = "You just triggered " + intent_name + "."
+        speak_output = "Has invocado " + intent_name + "."
 
         return (
             handler_input.response_builder
