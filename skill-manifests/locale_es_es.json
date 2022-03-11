@@ -1,0 +1,116 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "custom actions",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": [
+                        "okey",
+                        "ok",
+                        "genial",
+                        "bueno vale",
+                        "bueno",
+                        "venga",
+                        "venga vale",
+                        "vale",
+                        "perfecto",
+                        "perfect",
+                        "si gracias",
+                        "si",
+                        "yes"
+                    ]
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": [
+                        "no"
+                    ]
+                },
+                {
+                    "name": "Select",
+                    "slots": [
+                        {
+                            "name": "Selections",
+                            "type": "Selections"
+                        }
+                    ],
+                    "samples": [
+                        "{Selections}"
+                    ]
+                },
+                {
+                    "name": "Number",
+                    "slots": [
+                        {
+                            "name": "Numbers",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "{Numbers}"
+                    ]
+                },
+                {
+                    "name": "Duration",
+                    "slots": [
+                        {
+                            "name": "Durations",
+                            "type": "AMAZON.DURATION"
+                        }
+                    ],
+                    "samples": [
+                        "{Durations}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Selections",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "Amazon Prime",
+                                "synonyms": [
+                                    "Amazon",
+                                    "Amazon Video"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Hulu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "YouTube"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Netflix"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
