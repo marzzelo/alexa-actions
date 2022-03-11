@@ -26,5 +26,19 @@
 		"SKILL_NAME": "home assistant custom actions",
 		"STOP_MESSAGE": "Machs gut!",
 		"WELCOME_MESSAGE": "Willkommen bei {}. Der input text ist: {}"
+	},
+	"es": {
+	    "ERROR_401": "Parece que no estoy autorizado en Home Assistant. Por favor, revisa el enlazado entre las cuentas o el token de larga duración",
+		"ERROR_404": "Parece que no encuentro la entidad input text. Verifica que esté añadido en Home Assistant",
+		"ERROR_400": "No puedo comunicarme con Home Assistant. Revisa los logs de Amazon CloudWatch.",
+	    "ERROR_ACOUSTIC": "Lo siento, no he entendido eso... <break time='200ms'/> {}",
+		"ERROR_CONFIG": "Lo siento, estoy teniendo problemas. Revisa la configuración de la skill.",
+		"ERROR_SPECIFIC_DATE": "Lo siento, no puedo utilizar fechas específicas por ahora. Tendrás que indicarme una duración, como por ejemplo.... 5 horas",
+		"HELP_MESSAGE": "Esta skill solo se puede invocar como respuesta a una petición de Home Assistant.",
+		"OKAY": "Vale",
+		"SKILL_NAME": "home assistant custom actions",
+		"STOP_MESSAGE": "Adios!",
+		"SELECTED" : "Has Seleccionado {}",
+		"WELCOME_MESSAGE": "Bienvenido a {}. Input text es: {}"
 	}
 }
